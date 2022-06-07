@@ -1,0 +1,16 @@
+[
+  {
+    "userId": 1,
+    "username": "Joshqin",
+    "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+    "age": 18,
+    "contact": "998907654321"
+  },
+  {
+    "username": "Shrek",
+    "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+    "age": 18,
+    "contact": "998908050447",
+    "userId": 2
+  }
+]
