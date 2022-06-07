@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import express from "express";
 import userRouter from "./routers/user.js";
+import cors from "cors";
 
 const PORT = process.env.PORT || 5500;
 
@@ -9,6 +10,7 @@ let app = express();
 
 app.use(express.json());
 app.use(userRouter);
+app.use(cors);
 app.use((error, req, res, next) => {
   if (error.status != 500) {
     return res.status(error.status).json({
